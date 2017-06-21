@@ -1,0 +1,632 @@
+/*--------------------------------------------------------------
+# Bootstrap 3 Starter Kit :: styles.css
+# Corey Acri 
+# @AcriCAA
+# Strategic Design Lead 
+# AG Strategic Design 
+# http://agstrategic.design
+# http://coreyacri.com
+#
+# This style sheet contains some helpful object oriented css 
+# styles you can use to customize bootstrap layouts.
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sandbox Area
+# put all test css in here
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Global Tag Styles
+# use this to edit global tag styles like h1, h2, p
+--------------------------------------------------------------*/
+
+h1 {
+    font-family: 'Lato', sans; 
+    font-size: 3em;
+}
+
+h2 {
+
+    font-family: 'Lato', sans; 
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Lato', sans; 
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Lato', sans; 
+    font-size: 1em;
+}
+
+
+
+/*--------------------------------------------------------------
+# AG Strategic Notation Classes
+--------------------------------------------------------------*/
+
+
+h2.note-ag {
+   padding: 10px;
+   border: 1px solid;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   color: orange;
+   text-transform: uppercase;
+   font-family: Arial;
+}
+
+h2.note-ag:after {
+   content: none;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Background Colors
+# Object oriented background styles to be added to rows
+--------------------------------------------------------------*/
+
+.transparent-gray-bg {background: rgba(129, 129, 129, 0.2);}
+
+.blue-bg {
+
+    
+  /*background-color: rgba(90,84,143,0.8);*/
+
+    background-color: #0058A8;
+
+    color: white;
+
+}
+
+.orange-bg {
+
+
+    background-color: #F17650;
+    color: white;
+
+}
+
+.gray-bg {
+
+    background-color: #95989A;
+    color: white;
+
+
+}
+
+.lt-gray-bg {
+
+  background-color: #838078;
+  color: white;
+
+
+}
+
+.purple-bg {
+             background: #5A548F;
+            color:#ffffff;
+}
+
+
+.light-blue-bg{
+background-color: #50CCF2;
+}
+
+.green-bg {
+
+background: #7BA701;
+color: #000;
+
+}
+
+
+/*--------------------------------------------------------------
+# Link text colors
+--------------------------------------------------------------*/
+
+  a.orange-link {
+             color: #F17650;
+             text-transform: uppercase;
+             
+         }
+
+/*--------------------------------------------------------------
+# Box Borders
+--------------------------------------------------------------*/
+.gray-border{ border: 1px solid #d4d4d4; margin-right: 5px; margin-left:5px;}
+  
+
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+
+ 
+
+    a.btn-learn-more-ag {
+             border-radius: 0;
+             border: none;
+             background: #6CAAE3;
+             color: white;
+             text-transform: uppercase;
+             letter-spacing: .02em;
+             padding: 10px 20px 10px 20px;
+             margin-top: 5px;
+             margin-bottom: 5px;
+         }
+         
+         a.btn-learn-more:hover {
+             border-radius: 0;
+             border: none;
+             background: #0058A8;
+             color: white;
+             text-transform: uppercase;
+             letter-spacing: .02em;
+             background-repeat: no-repeat;
+             padding: 10px 20px 10px 20px;
+             margin-top: 5px;
+             margin-bottom: 5px;
+         }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Font Mods 
+--------------------------------------------------------------*/
+
+        .juicy {
+             font-weight: 400;
+         }
+         
+         
+         /* feather does not work with the VAG Rounded Font so not implemented */ 
+         .feather {
+             font-weight: 200;
+         }
+         
+         .bigify {
+             font-size: 30px;
+         }
+
+
+
+/*--------------------------------------------------------------
+# Padding 
+--------------------------------------------------------------*/
+
+.pad-5{
+
+padding: 5px;
+
+}
+
+.pad-10 {
+
+
+    padding: 10px;
+}
+
+.pad-15 {
+
+padding: 15px;
+
+}
+
+.pad-20 {
+
+padding: 20px;
+
+}
+
+.pad-25{
+
+padding: 25px;
+
+
+}
+
+.pad-30 {
+
+padding: 30px;
+
+
+}
+
+
+.pad-35 {
+
+padding: 35px;
+
+}
+
+.pad-40 {
+
+padding: 40px;
+
+
+}
+
+
+.pad-45 {
+
+padding: 45px;
+
+}
+
+.pad-50 {
+
+
+    padding: 50px;
+}
+
+
+/*--------------------------------------------------------------
+# Margins 
+--------------------------------------------------------------*/
+
+/*place this on the div container that the image is in to make it take up the full width*/
+.img-margin-none {
+    margin-right: -15px; 
+    margin-left: -15px;  
+}
+
+
+ .area-start {
+             margin-top: 50px;
+}
+
+.negative-margin-left-20 {
+
+margin-left: -20px;
+
+}
+
+.bottom-margin-10 {
+
+    margin-bottom: 10px;
+}
+
+.bottom-margin-15 {
+
+    margin-bottom: 15px;
+}
+
+.bottom-margin-25 {
+
+    margin-bottom: 25px;
+}
+
+.bottom-margin-50 {
+
+    margin-bottom: 50px;
+}
+
+
+.bottom-margin-75 {
+
+    margin-bottom: 75px;
+}
+
+.bottom-margin-100 {
+
+    margin-bottom: 100px;
+}
+
+
+.top-margin-5 {
+
+margin-top: 5px;
+
+}
+
+.top-margin-10 {
+
+margin-top: 10px;
+
+}
+
+.top-margin-20 {
+
+margin-top: 20px;
+
+}
+
+.top-margin-25 {
+
+margin-top: 25px;
+
+}
+
+.top-margin-30 {
+
+margin-top: 30px;
+
+}
+
+.top-margin-40 {
+
+margin-top: 40px;
+
+}
+
+.top-margin-50 {
+
+margin-top: 50px;
+
+}
+
+.top-margin-60 {
+
+margin-top: 60px;
+
+}
+
+.top-margin-70 {
+
+margin-top: 70px;
+
+}
+
+.top-margin-80 {
+
+margin-top: 80px;
+
+}
+
+.top-margin-90 {
+
+margin-top: 90px;
+
+}
+
+
+.top-margin-100 {
+
+margin-top: 100px;
+
+}
+
+
+.top-margin-110 {
+
+margin-top: 110px;
+
+}
+
+
+.top-margin-120 {
+
+margin-top: 120px;
+
+}
+
+
+.top-margin-130 {
+
+margin-top: 130px;
+
+}
+
+
+.top-margin-140 {
+
+margin-top: 140px;
+
+}
+
+
+.top-margin-150 {
+
+margin-top: 150px;
+
+}
+
+
+
+
+.top-margin-160 {
+
+margin-top: 160px;
+
+}
+
+
+
+
+.top-margin-170 {
+
+margin-top: 170px;
+
+}
+
+
+
+.top-margin-180 {
+
+margin-top: 180px;
+
+}
+
+
+.top-margin-190 {
+
+margin-top: 190px;
+
+}
+
+
+.top-margin-200 {
+
+margin-top: 200px;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Text over image 
+--------------------------------------------------------------*/
+.ribbon {
+    position: relative;
+}
+.ribbon img {
+    width: 100%;
+}
+.photo-caption {
+    position: absolute;
+    /*top: 15px;*/
+    right: 30px;
+
+    bottom: 15px;
+    left: 30px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+}
+
+
+  
+/*--------------------------------------------------------------
+# Impact Box
+--------------------------------------------------------------*/
+
+ /* increases the h2 margin-top for impact boxes */
+         
+         div.impact h2 {
+             margin-top: 25px;
+         }
+         
+         div.impact h2,
+         div.impact h3 {
+             padding-left: 15px;
+         }
+         
+        div.media {
+             margin-top: 15px;
+             padding: 15px;
+         }
+
+        div.media-body {
+             padding: 0 15px;
+         }
+         
+
+         .media-object-ag {
+             max-width: 44%;
+             height: auto;
+             padding: 0 10px 10px 0;
+         }
+
+
+
+
+/*--------------------------------------------------------------
+# Image with call out next to it
+--------------------------------------------------------------*/
+
+
+.img-row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Media Queries 
+--------------------------------------------------------------*/
+
+         
+         @media (min-width: 1200px) {
+           
+            /*Inserts content after the h2*/
+            h2.note-ag:after{
+
+            content: "(Large Width)";
+
+             }
+
+    
+         }
+         
+         
+         /* Landscape tablets and medium desktops */
+         
+         @media (min-width: 992px) and (max-width: 1199px) {
+      
+             /*Inserts content after the h2*/
+
+               h2.note-ag:after{
+
+            content: "(Medium Width)";
+
+             }
+            
+         }
+        
+        
+        
+         /* Portrait tablets and small desktops */
+         
+         @media (min-width: 768px) and (max-width: 991px) {
+         
+          /*Inserts content after the h2*/
+               h2.note-ag:after{
+
+            content: "(Small Width)";
+
+             }
+             
+         }
+        
+        
+        
+         /* Landscape phones and portrait tablets */
+         
+         @media (max-width: 767px) {
+        
+            /*Inserts content after the h2*/
+               h2.note-ag:after{
+
+            content: "(Extra Small, Landscape)";
+
+             }
+
+
+             
+         }
+         
+    
+         
+         /* Portrait phones and smaller */
+         
+         @media (max-width: 480px) {
+           
+         /*inserts content after the h2*/
+
+               h2.note-ag:after{
+
+            content: "(Extra Small, Portrait)";
+
+             }
+             
+         }
+
+
